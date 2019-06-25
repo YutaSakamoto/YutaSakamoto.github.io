@@ -18,7 +18,7 @@ jQuery(function ($) {
 
     function showHideNav() {
 
-        if (jQuery(window).scrollTop() > 1000) {
+        if (jQuery(window).scrollTop() > 700) {
 
             // Show white nav
             $("nav").addClass("white-nav-top");
